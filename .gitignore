@@ -1,0 +1,16 @@
+# Local secrets and machine-specific environment overrides
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Generated release archives
+dist/

@@ -1,0 +1,7 @@
+interface:
+  display_name: "EIA Natural Gas Storage"
+  short_description: "Analyze official weekly U.S. gas storage"
+  default_prompt: "Use $eia-natural-gas-storage to summarize the latest Lower 48 storage release and its year-ago and five-year comparisons."
+
+policy:
+  allow_implicit_invocation: true
